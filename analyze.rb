@@ -1,6 +1,18 @@
 def analyze(x, y, z)
-  if x or y or z == ""
-    puts "No floating point numbers were provided."
+  if x == ""
+    puts "X is not provided."
+    
+    abort
+  end
+  
+  if y == ""
+    puts "X is not provided."
+    
+    abort
+  end
+
+  if z == ""
+    puts "X is not provided."
     
     abort
   end
