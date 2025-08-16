@@ -1,4 +1,10 @@
 def analyze(x, y, z)
+  if x or y or z == ""
+    puts "No floating point numbers were provided."
+    
+    abort
+  end
+  
   user_percents = [ x, y, z ], [ :version0p1p0, :version0p1p1, :version_all ]
 
   github_clones = 16
