@@ -1,6 +1,4 @@
 def analyze(x, y, z)
-  #user_percents = [ 0.590909091, 0.409090909, 0.167355372 ], [ :version0p1p0, :version0p1p1, :version_all ]
-
   user_percents = [ x, y, z ], [ :version0p1p0, :version0p1p1, :version_all ]
 
   github_clones = 16
